@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+       
+       /* preparação */
+       *{
+        padding: 0;
+        margin: 0 auto;
+       }
+a{
+
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+  .menu{
+    background-color: rgb(87, 82, 91);
+    width: 100%;
+    height: 40px;
+  }
+      /* menu */
+      .menu ul li{
+        background-color: rgb(87,82,91);
+        width: 100px;
+        height: 40px;
+        display: inline;
+        line-height: 40px;
+        text-align: center;
+        float: left;
+        position: relative;
+      }
+      .menu ul li:hover{
+        background-color: rgb(67, 63, 112);
+      }
+      .menu ul ul{
+        display: none;
+      }
+      /*sub-menu*/
+      .menu ul li:hover > ul{
+        display: block;
+      }
+/*sub-sub-menu*/
+.menu ul ul ul{
+    margin-left: 101px;
+    position: absolute;
+    top: 1px;
+}
+    .menu ul ul li:hover{
+        background-color: rgb(84, 86, 112);
+    }
+    .menu ul ul li:hover{
+        background-color: rgb(124, 124, 158);
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">CAMISAS</a>
+                <ul>
+                    <li><a href="#">FUTEBOL</a>
+                        <ul>
+                            <li><a href="#">BRASILEIRO</a></li>
+                            <li><a href="#">EUROPEU</a>
+                                <ul>
+                                    <li><a href="#">FLAMENGO</a></li>
+                                    <li><a href="#">BARCELONA</a></li>
+                            </li>
+                        </ul>
+                    </li>
+            </li>
+        </ul>
+        </li>
+        <li><a href="#">VOLEI</a></li>
+        <li><a href="#">BASQUETE</a></li>
+        </ul>
+        
+        <li><a href="#">CAMISETAS</a></li>
+        <ul>
+            <li><a href="#">FUTEBOL</a>
+                <ul>
+                    <li><a href="#">FUTEBOL</a></li>
+                    <li><a href="#">FUTEBOL</a>
+                        <ul>
+                            <li><a href="#">FUTEBOL</a></li>
+                            <li><a href="#">FUTEBOL</a></li>
+                    </li>
+                </ul>
+            </li>
+    </li>
+</ul>
+</li>
+<li><a href="#">VOLEI</a></li>
+<li><a href="#">BASQUETE</a></li>
+</ul>
+
+        <li><a href="#">SAPATOS</a></li>
+        <ul>
+            <li><a href="#">FUTEBOL</a>
+                <ul>
+                    <li><a href="#">FUTEBOL</a></li>
+                    <li><a href="#">FUTEBOL</a>
+                        <ul>
+                            <li><a href="#">FUTEBOL</a></li>
+                            <li><a href="#">FUTEBOL</a></li>
+                    </li>
+                </ul>
+            </li>
+    </li>
+</ul>
+</li>
+<li><a href="#">VOLEI</a></li>
+<li><a href="#">BASQUETE</a></li>
+</ul>
+
+        <li><a href="#">CALÇAS</a></li>
+        <ul>
+            <li><a href="#">FUTEBOL</a>
+                <ul>
+                    <li><a href="#">FUTEBOL</a></li>
+                    <li><a href="#">FUTEBOL</a>
+                        <ul>
+                            <li><a href="#">FUTEBOL</a></li>
+                            <li><a href="#">FUTEBOL</a></li>
+                    </li>
+                </ul>
+            </li>
+    </li>
+</ul>
+</li>
+<li><a href="#">VOLEI</a></li>
+<li><a href="#">BASQUETE</a></li>
+</ul>
+
+        </ul>
+    </nav>
+</body>
+
+</html>

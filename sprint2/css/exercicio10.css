@@ -1,0 +1,39 @@
+.menu {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.esq {
+    background-color: rgb(97, 178, 176);
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+
+.meio {
+    background-color: rgb(136, 224, 202);
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+
+.dir {
+    background-color: rgb(136, 224, 202);
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+
+.roda {
+    background-color: aquamarine;
+    height: 120px;
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+}
